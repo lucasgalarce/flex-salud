@@ -20,7 +20,7 @@ import logoWhite from './assets/flex-logo-white.png'
 
 const whatsappNumber = '5491123456789'
 const whatsappText = encodeURIComponent(
-  'Hola Flex Salud, quiero recibir informacion sobre los planes.',
+  'Hola Flex Salud, quiero recibir información sobre los planes.',
 )
 const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappText}`
 
@@ -28,44 +28,44 @@ const benefits = [
   { label: '18 consultorios propios', icon: Building2 },
   { label: 'No abona bonos ni copagos', icon: CircleDollarSign },
   { label: 'Descuentos en medicamentos', icon: Pill },
-  { label: 'Medicos a domicilio', icon: Home },
-  { label: 'Medico por videollamada', icon: Video },
+  { label: 'Médicos a domicilio', icon: Home },
+  { label: 'Médico por videollamada', icon: Video },
   { label: 'Servicio de laboratorio', icon: Microscope },
 ]
 
 const coverages = [
-  'Medico clinico',
-  'Pediatria',
-  'Diagnostico por imagen',
+  'Médico clínico',
+  'Pediatría',
+  'Diagnóstico por imagen',
   'Salud mental',
   'Cobertura ambulatoria',
   'Laboratorios',
-  'Nutricion',
-  'Traumatologia',
-  'Cardiologia',
-  'Ginecologia',
-  'Opticas',
-  'Neonatologia',
-  'Oftalmologia',
+  'Nutrición',
+  'Traumatología',
+  'Cardiología',
+  'Ginecología',
+  'Ópticas',
+  'Neonatología',
+  'Oftalmología',
   'Obstetricia',
-  'Dermatologia',
-  'Fonoaudiologia',
-  'Cirugia estetica',
-  'Kinesiologia',
+  'Dermatología',
+  'Fonoaudiología',
+  'Cirugía estética',
+  'Kinesiología',
 ]
 
 const zones = [
   {
     name: 'Zona Sur',
-    places: ['Avellaneda', 'Lomas de Zamora', 'Monte Grande', 'Quilmes', 'Lanus'],
+    places: ['Avellaneda', 'Lomas de Zamora', 'Monte Grande', 'Quilmes', 'Lanús'],
   },
   {
     name: 'Zona Oeste',
-    places: ['Gral. Rodriguez', 'Moreno', 'Moron', 'Merlo', 'San Justo'],
+    places: ['Gral. Rodríguez', 'Moreno', 'Morón', 'Merlo', 'San Justo'],
   },
   {
     name: 'Zona Norte',
-    places: ['Escobar', 'Zarate', 'Pilar', 'San Fernando', 'Garin', 'San Martin'],
+    places: ['Escobar', 'Zárate', 'Pilar', 'San Fernando', 'Garín', 'San Martín'],
   },
   {
     name: 'CABA',
@@ -118,15 +118,15 @@ function App() {
           <div className="flex min-h-[610px] flex-col justify-center sm:min-h-[620px] lg:min-h-[560px]">
             <div className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-2 text-xs font-semibold leading-5 text-white backdrop-blur sm:mb-7 sm:text-sm">
               <ShieldCheck className="h-4 w-4 text-[#9ccc85]" />
-              Planes medicos simples, cercanos y sin vueltas
+              Planes médicos simples, cercanos y sin vueltas
             </div>
             <img className="mb-7 h-auto w-64 sm:w-80" src={logoWhite} alt="Flex Salud" />
             <h1 className="max-w-3xl text-4xl font-black leading-[.98] tracking-normal sm:text-6xl lg:text-7xl">
-              Tu cobertura medica, simple y cercana.
+              Tu cobertura médica, simple y cercana.
             </h1>
             <p className="mt-5 max-w-2xl text-lg font-medium leading-8 text-white/86 sm:mt-6 sm:text-xl">
-              Cobertura medica con consultorios propios, atencion a domicilio,
-              videollamada y laboratorio para que resolver tu salud sea mas facil.
+              Cobertura médica con consultorios propios, atención a domicilio,
+              videollamada y laboratorio para que resolver tu salud sea más fácil.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:mt-9 sm:flex-row">
               <a
@@ -161,7 +161,7 @@ function App() {
                     Plan Gamma
                   </p>
                   <p className="mt-1 text-xl font-black text-slate-900 sm:text-2xl">
-                    Atencion integral
+                    Atención integral
                   </p>
                 </div>
               </div>
@@ -170,7 +170,7 @@ function App() {
                   Sin bonos ni copagos
                 </p>
                 <p className="rounded-2xl bg-[#eef7f5] px-4 py-3 text-sm font-bold text-slate-700">
-                  Video consulta y domicilio
+                  Videoconsulta y domicilio
                 </p>
               </div>
             </div>
@@ -187,11 +187,11 @@ function App() {
                 Beneficios destacados
               </p>
               <h2 className="mt-4 text-3xl font-black leading-tight text-slate-950 sm:text-5xl">
-                Un plan pensado para resolver mas rapido.
+                Un plan pensado para resolver más rápido.
               </h2>
               <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">
                 La propuesta combina red propia, prestaciones de uso frecuente y
-                canales de atencion pensados para el dia a dia.
+                canales de atención pensados para el día a día.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
@@ -245,7 +245,7 @@ function App() {
                 </div>
               </div>
               <div className="mt-7 grid gap-4">
-                {['Consultas medicas', 'Estudios y diagnostico', 'Salud familiar', 'Atencion ambulatoria'].map((item) => (
+                {['Consultas médicas', 'Estudios y diagnóstico', 'Salud familiar', 'Atención ambulatoria'].map((item) => (
                   <div key={item} className="flex items-center justify-between rounded-2xl bg-slate-50 px-4 py-4">
                     <span className="font-bold text-slate-700">{item}</span>
                     <Check className="h-5 w-5 text-[#83bd73]" />
@@ -287,7 +287,7 @@ function App() {
             </div>
             <div className="order-1 lg:order-2">
               <p className="text-sm font-black uppercase tracking-[.22em] text-[#04798b]">
-                Red de atencion
+                Red de atención
               </p>
               <h2 className="mt-4 text-3xl font-black leading-tight text-slate-950 sm:text-5xl">
                 Consultorios distribuidos por las principales zonas.
@@ -322,7 +322,7 @@ function App() {
               </p>
             </div>
             <h2 className="mt-5 max-w-3xl text-3xl font-black leading-tight sm:text-5xl">
-              Pedi informacion del plan y recibi una respuesta personalizada.
+              Pedí información del plan y recibí una respuesta personalizada.
             </h2>
           </div>
           <a
@@ -357,7 +357,7 @@ function App() {
         </div>
         <div className="mx-auto mt-8 max-w-7xl border-t border-white/16 pt-5">
           <p className="text-sm font-medium text-white/70">
-            Flex Salud. La informacion puede ajustarse segun cartilla vigente.
+            Flex Salud. La información puede ajustarse según cartilla vigente.
           </p>
         </div>
       </footer>
