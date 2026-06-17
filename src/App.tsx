@@ -18,7 +18,7 @@ import heroImage from './assets/hero-obra-social.png'
 import logoColor from './assets/flex-logo-color.png'
 import logoWhite from './assets/flex-logo-white.png'
 
-const whatsappNumber = '5491123456789'
+const whatsappNumber = '5491161955461'
 const whatsappText = encodeURIComponent(
   'Hola Flex Salud, quiero recibir información sobre los planes.',
 )
